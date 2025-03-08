@@ -25,4 +25,9 @@ export default defineNuxtConfig({
       routes: ["/", "/gallery"],
     },
   },
+
+  app: {
+    baseURL: "/invitation-wedding/",
+    buildAssetsDir: "assets",
+  },
 });
