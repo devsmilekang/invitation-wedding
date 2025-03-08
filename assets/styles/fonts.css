@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: local('Cafe24Oneprettynight'),
+    url("~/assets/fonts/Cafe24Oneprettynight-v2.0.woff2") format('woff2'),
+    url("~/assets/fonts/Cafe24Oneprettynight-v2.0.woff") format('woff'),
+    url("~/assets/fonts/Cafe24Oneprettynight-v2.0.otf") format('opentype'),
+    url("~/assets/fonts/Cafe24Oneprettynight-v2.0.ttf") format('truetype');
+}
+
+* {
+    font-family: Cafe24Oneprettynight, serif;
+    -webkit-font-smoothing: antialiased;
+}
