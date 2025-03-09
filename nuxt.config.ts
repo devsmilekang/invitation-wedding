@@ -25,10 +25,6 @@ export default defineNuxtConfig({
 
   ssr: false,
 
-  nitro: {
-    preset: "node-server",
-  },
-
   app: {
     baseURL: "/invitation-wedding/",
     buildAssetsDir: "/_nuxt/",
@@ -46,11 +42,15 @@ export default defineNuxtConfig({
     },
   },
 
-  experimental: {
-    payloadExtraction: false,
-  },
-
   build: {
     transpile: ["swiper", "vue-awesome-swiper"],
+  },
+
+  nitro: {
+    preset: "static",
+    output: {
+      dir: ".output/public",
+      publicDir: ".output/public/_nuxt",
+    },
   },
 });
