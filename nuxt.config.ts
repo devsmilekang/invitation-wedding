@@ -48,9 +48,9 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: "static",
-    output: {
-      dir: ".output/public",
-      publicDir: ".output/public/_nuxt",
-    },
+  },
+
+  generate: {
+    fallback: "404.html",
   },
 });
