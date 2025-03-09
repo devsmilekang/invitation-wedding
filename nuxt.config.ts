@@ -30,8 +30,20 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: "/invitation-wedding/",
     buildAssetsDir: "/_nuxt/",
-    baseURL: "/",
+    head: {
+      title: "우리의 결혼식에 초대합니다",
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {
+          hid: "description",
+          name: "description",
+          content: "우리의 결혼식에 초대합니다",
+        },
+      ],
+    },
   },
 
   experimental: {
