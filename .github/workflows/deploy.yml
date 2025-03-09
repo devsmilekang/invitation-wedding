@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v3
 
@@ -23,8 +26,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Copy files
+        run: cp -r .output/public/* .
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.output/public
+          publish_dir: ./
