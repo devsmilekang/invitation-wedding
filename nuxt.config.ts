@@ -26,17 +26,17 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: "/invitation-wedding/",
     buildAssetsDir: "assets",
+    baseURL:
+      process.env.NODE_ENV === "production" ? "/invitation-wedding/" : "/",
     head: {
-      title: "우리의 결혼식에 초대합니다",
+      title: "강동우 ♥ 김민지 결혼식에 초대합니다",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
-          hid: "description",
           name: "description",
-          content: "우리의 결혼식에 초대합니다",
+          content: "2024년 4월 27일 토요일 오후 2시 30분",
         },
       ],
     },
