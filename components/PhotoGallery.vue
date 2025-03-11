@@ -1,6 +1,6 @@
 <script lang="ts">
 // const photos = ['/gallery/img.png', '/gallery/img_1.png', '/gallery/img_2.png', '/gallery/img_3.png'];
-const photos = Array.from({length:4}, (_, i)=>`/gallery/studio/${i+1}.jpg`);
+const photos = Array.from({length:4}, (_, i)=>`/invitation-wedding/gallery/studio/${i+1}.jpg`);
 export default {
   name: 'PhotoGallery',
   methods: {
