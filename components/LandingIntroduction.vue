@@ -7,10 +7,10 @@
       Ever After!</p>
     <article :class="['contents', imgLoad&&'on-load']">
       <div class="introduction-img-container">
-        <NuxtImg src="/invitation-wedding/introduction/img1.png"
-                 preload
-                 alt=''
-                 class="introduction-img" />
+        <img src="/invitation-wedding/introduction/img1.png"
+             loading="lazy"
+             alt=""
+             class="introduction-img" />
       </div>
 
       <p class="date">2024.06.08</p>
