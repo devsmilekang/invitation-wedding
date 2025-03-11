@@ -24,7 +24,7 @@ enum Category {
 const allImgs = Array.from({length: 16}, (_, i)=>{
   return {
     category: Category.STUDIO,
-    img: `/gallery/studio/${i}.jpg`
+    img: `/invitation-wedding/gallery/studio/${i}.jpg`
   }
 })
 
@@ -182,16 +182,16 @@ export default {
       -->
     </div>
     <article class="grid">
-      <NuxtImg v-for="(img, idx) of imgWithId"
-               quality="80"
-               width="200"
-               :src="img.img"
-               :id="img.id"
-               @click="()=>showModal(idx)"
-               :data-category="img.category"
-               :data-is-head="img.isHead"
-               alt=''
-               :key="`img ${idx}`" />
+      <img v-for="(img, idx) of imgWithId"
+           loading="lazy"
+           width="200"
+           :src="img.img"
+           :id="img.id"
+           @click="()=>showModal(idx)"
+           :data-category="img.category"
+           :data-is-head="img.isHead"
+           alt=''
+           :key="`img ${idx}`" />
     </article>
   </section>
  <!-- 상세보기 모달 -->
@@ -217,7 +217,8 @@ export default {
              class="swiper">
            <swiper-slide v-for="img in imgs"
                          :key="img" >
-             <NuxtImg :src="img"
+             <img :src="img"
+                  loading="lazy"
                   alt=''
                   class="modal-img" />
            </swiper-slide>
@@ -301,7 +302,6 @@ export default {
   background-color: white;
   max-width: 400px;
   width: calc(100% - 40px);
-  //padding: 12px 16px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -365,7 +365,6 @@ export default {
   align-items: center;
   column-gap: 18px;
   width: 100%;
-  //margin-bottom: 18px;
   background-color: white;
   padding: 10px;
 }
