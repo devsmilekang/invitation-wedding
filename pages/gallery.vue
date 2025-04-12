@@ -21,7 +21,7 @@ enum Category {
   STUDIO, YONSEI, FRIENDS, SELF
 }
 
-const allImgs = Array.from({length: 16}, (_, i)=>{
+const allImgs = Array.from({length: 24}, (_, i)=>{
   return {
     category: Category.STUDIO,
     img: `/invitation-wedding/gallery/studio/${i}.jpg`
@@ -395,7 +395,8 @@ export default {
 
 .grid img {
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
 }
 
