@@ -11,7 +11,7 @@
       <DdayFooter/>
     </div>
   </div>
-  <div style="position: fixed; left: 0; top: 0; width: 100vw; height: 100vh;">
+  <div style="position: fixed; left: 0; top: 0; width: 100%; height: 100vh;">
     <div class="container"
          id="background" >
       <LandingIntroduction/>
