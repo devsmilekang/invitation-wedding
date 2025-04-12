@@ -395,7 +395,8 @@ export default {
 
 .grid img {
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
 }
 
