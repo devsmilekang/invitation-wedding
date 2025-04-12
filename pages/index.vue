@@ -50,7 +50,7 @@ useSeoMeta({
   ogUrl: 'https://devsmilekang.github.io/invitation-wedding',
   ogSiteName: '2025년 7월 13일(토) 오후 12시 40분',
   ogType: 'website',
-  ogImage: 'https://devsmilekang.github.io/invitation-wedding/introduction/img1.png',
+  ogImage: 'https://devsmilekang.github.io/invitation-wedding/introduction/og.jpg',
   formatDetection: 'telephone=no',
   viewport: 'initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;'
 })

@@ -12,7 +12,7 @@ useSeoMeta({
   ogUrl: 'https://devsmilekang.github.io/invitation-wedding',
   ogSiteName: '강민서 & 정솔 결혼식에 초대합니다',
   ogType: 'website',
-  ogImage: 'https://devsmilekang.github.io/invitation-wedding/introduction/img1.png',
+  ogImage: 'https://devsmilekang.github.io/invitation-wedding/introduction/og.jpg',
   formatDetection: 'telephone=no',
   viewport: 'initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;'
 });
