@@ -27,8 +27,7 @@ export default defineNuxtConfig({
 
   app: {
     buildAssetsDir: "assets",
-    baseURL:
-      process.env.NODE_ENV === "production" ? "/invitation-wedding/" : "/",
+    baseURL: "/",
     head: {
       title: "강민서 ♥ 정솔 결혼식에 초대합니다",
       meta: [
