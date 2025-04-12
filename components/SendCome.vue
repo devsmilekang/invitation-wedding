@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     updateTime() {
-      const diff = dayjs('2024-06-08 13:00').diff(dayjs(), 'minute');
+      const diff = dayjs('2025-07-13 12:30').diff(dayjs(), 'minute');
       this.day = Math.floor(diff/(60*24));
       this.hour = Math.floor(diff/60) % 24;
       this.min = diff % 60;
@@ -71,10 +71,10 @@ export default {
       민서 & 솔의 결혼식이<br/>
       {{day}}일 남았습니다.
     </p>
-    <button class="btn"
+    <!-- <button class="btn"
             @click="showModal" >
       참석 의사 전달하기
-    </button>
+    </button> -->
   </section>
 
 </template>

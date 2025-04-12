@@ -68,6 +68,7 @@ const scrollDown = () => {
   top: 0;
   background-color: white;
   min-height: 100vh;
+  width: 100%
 }
 
 .date {

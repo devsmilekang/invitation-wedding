@@ -17,7 +17,7 @@
       <LandingIntroduction/>
     </div>
   </div>
-  <Modal ref="modal"
+  <!-- <Modal ref="modal"
          :init="!showForm">
     <div class="modal-wrapper"
          v-if="!showForm">
@@ -33,7 +33,7 @@
          v-if="showForm">
       <SendForm :close-modal="closeModal"/>
     </div>
-  </Modal>
+  </Modal> -->
 <!--
   <Modal ref="modalRef"
          :dont-show="false">
