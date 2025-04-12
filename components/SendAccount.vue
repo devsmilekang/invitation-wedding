@@ -40,8 +40,8 @@ import AccountAccordion from "~/components/account/AccountAccordion.vue";
           <AccountAccordion type="신랑"
                             :id="1"
                             account1="국민 882601-04-047972"
-                            account2="국민 841-02-275843,강기선"
-                            account3="국민 841-12-418550,노명옥" />
+                            account2="국민 408802-01-030330,강기선"
+                            account3="국민 664601-01-175755,노명옥" />
         </div>
       </div>
       <div class="phone-header">
