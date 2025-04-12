@@ -47,10 +47,10 @@ useSeoMeta({
   ogTitle: '2025년 7월 13일(토) 오후 12시 40분',
   description:"강민서 & 정솔 결혼식에 초대합니다",
   ogDescription: '월드컵컨벤션 그랜드볼룸홀',
-  ogUrl: 'https://invitation-wedding-hma7987ta-davekangs-projects-51f3e0c2.vercel.app',
+  ogUrl: 'https://invitation-wedding-ten.vercel.app',
   ogSiteName: '2025년 7월 13일(토) 오후 12시 40분',
   ogType: 'website',
-  ogImage: 'https://invitation-wedding-hma7987ta-davekangs-projects-51f3e0c2.vercel.app/introduction/og.jpg',
+  ogImage: 'https://invitation-wedding-ten.vercel.app/introduction/og.jpg',
   formatDetection: 'telephone=no',
   viewport: 'initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;'
 })
