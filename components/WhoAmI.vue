@@ -57,8 +57,7 @@ export default {
           믿음과 사랑 안에서<br/>
           새로운 시작을 준비합니다<br/>
           <br/>
-          모든 날, 모든 순간을 아름답게<br/>
-          만들어 가고<br/>
+          모든 날, 모든 순간을 아름답게 만들어 가고<br/>
           이끌어 주고, 응원해 주는<br/>
           서로가 되겠습니다.<br/>
           <br/>
@@ -129,8 +128,9 @@ export default {
 }
 
 .location {
-  font-size: 19px;
-  line-height: 26px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
   text-align: center;
   margin-top: 92px;
 }
