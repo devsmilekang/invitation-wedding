@@ -128,11 +128,11 @@ export default {
         </button>
       </div>
     </form>
-    <button class="send-btn"
+    <!-- <button class="send-btn"
             @click="createMemo"
             type="button" >
       참석 의사 전달하기
-    </button>
+    </button> -->
   </div>
 
 </template>

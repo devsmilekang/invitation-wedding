@@ -35,13 +35,13 @@ import AccountAccordion from "~/components/account/AccountAccordion.vue";
       <div class="content-wrapper">
         <div class="content-container">
           <div class="phone-content">
-            <a href="tel:01085909102">010-8590-9102</a> 로 연락해주세요.
+            <a href="tel:01041144240">010-4114-4240</a> 로 연락해주세요.
           </div>
           <AccountAccordion type="신랑"
                             :id="1"
-                            account1="카카오뱅크 3333-27-9858278"
-                            account2="농협 841-02-275843,김외진"
-                            account3="농협 841-12-418550,최영자" />
+                            account1="국민으행 882601-04-047972"
+                            account2="농협 841-02-275843,강기선"
+                            account3="농협 841-12-418550,노명옥" />
         </div>
       </div>
       <div class="phone-header">
@@ -52,13 +52,13 @@ import AccountAccordion from "~/components/account/AccountAccordion.vue";
       <div class="content-wrapper">
         <div class="content-container">
           <div class="phone-content">
-            <a href="tel:01084111858">010-8411-1858</a> 로 연락해주세요.
+            <a href="tel:01097251222">010-9725-1222</a> 로 연락해주세요.
           </div>
           <AccountAccordion type="신부"
                             :id="2"
                             account1="카카오뱅크 3333-23-4343500"
-                            account2="기업 434-004340-01018,정해만"
-                            account3="기업 381-052787-01-016,김지영" />
+                            account2="농협 170804-52-112625,정우진"
+                            account3="우리은행 673-077635-02-001,조미순" />
         </div>
       </div>
     </article>

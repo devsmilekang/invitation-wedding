@@ -30,13 +30,13 @@ export default defineNuxtConfig({
     baseURL:
       process.env.NODE_ENV === "production" ? "/invitation-wedding/" : "/",
     head: {
-      title: "강동우 ♥ 김민지 결혼식에 초대합니다",
+      title: "강민서 ♥ 정솔 결혼식에 초대합니다",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "description",
-          content: "2024년 4월 27일 토요일 오후 2시 30분",
+          content: "2025년 7월 13일 일요일 오후 12시 40분",
         },
       ],
     },

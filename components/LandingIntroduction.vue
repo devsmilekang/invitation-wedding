@@ -13,9 +13,9 @@
              class="introduction-img" />
       </div>
 
-      <p class="date">2024.06.08</p>
+      <p class="date">2025.07.13</p>
       <h1 class="title">
-        김은택 & 정윤영
+        강민서 & 정솔
         <span>결혼식에 초대합니다</span>
       </h1>
     </article>

@@ -9,7 +9,7 @@ export default {
   name: 'DdayFooter',
   data() {
     return {
-      dday: dayjs('2024-06-08').diff(dayjs(),'day').toString().padStart(2, '0'),
+      dday: dayjs('2025-07-13').diff(dayjs(),'day').toString().padStart(2, '0'),
       name,
       message,
       engage,
@@ -47,8 +47,8 @@ export default {
     shareLink() {
       if(window.navigator.share) {
         window.navigator.share({
-          title: '김은택 & 정윤영 결혼식에 초대합니다',
-          text: '김은택 & 정윤영 결혼식에 초대합니다',
+          title: '강민서 & 정솔 결혼식에 초대합니다',
+          text: '강민서 & 정솔 결혼식에 초대합니다',
           url: 'https://invitation-letter-green.vercel.app',
         });
       }
@@ -82,8 +82,6 @@ export default {
         주소 복사하기
       </a>
     </div>
-    <p>Copyright 2024. Yunyoung Jeong. All right reserved.</p>
-    <p>Thanks to Hash the Deverloper.</p>
   </footer>
 </template>
 

@@ -24,17 +24,6 @@
       <p class="modal-content-1">결혼식에 참석해주시는<br/>
         모든 분들을 귀하게 모실 수 있도록<br/>
         참석 의사를 말씀해주세요.</p>
-<!--
-      <p class="modal-content-1">결혼식에 참석해주시는<br/>
-        모든 분들을 귀하게 모실 수 있도록<br/>
-        참석 의사를 말씀해주세요.</p>
-      <CircleDivider/>
-      <p class="modal-content-2">
-        신랑 김은택 & 신부 정윤영<br/>
-        2024년 6월 8일 토요일 오후 1시<br/>
-        연세대학교 동문회관 3층 그랜드볼룸
-      </p>
-      -->
       <button class="modal-btn"
               @click="showForm = true;">
         참석 의사 전달하기
@@ -54,14 +43,14 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title:"김은택 & 정윤영 결혼식에 초대합니다",
-  ogTitle: '2024년 6월 8일(토) 오후 1시',
-  description:"김은택 & 정윤영 결혼식에 초대합니다",
-  ogDescription: '연세대학교 동문회관 3층 그랜드볼룸',
+  title:"강민서 & 정솔 결혼식에 초대합니다",
+  ogTitle: '2025년 7월 13일(토) 오후 12시 40분',
+  description:"강민서 & 정솔 결혼식에 초대합니다",
+  ogDescription: '월드컵컨벤션 그랜드볼룸홀',
   ogUrl: 'https://invite-to-our-wedding.com',
-  ogSiteName: '2024년 6월 8일(토) 오후 1시',
+  ogSiteName: '2025년 7월 13일(토) 오후 12시 40분',
   ogType: 'website',
-  ogImage: 'https://invite-to-our-wedding.com/og.png',
+  ogImage: 'https://invite-to-our-wedding.com/og.png', //수정필요
   formatDetection: 'telephone=no',
   viewport: 'initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;'
 })

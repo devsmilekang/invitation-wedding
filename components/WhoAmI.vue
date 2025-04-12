@@ -45,24 +45,25 @@ export default {
            class="who-am-i">
         <div class="parent">
           <p class="who">
-            <span>김외진• 최영자</span>의 차남 <span>은택</span>
+            <span>강기선• 노명옥</span>의 차남 <span>민서</span>
           </p>
           <p class="who">
-            <span>정해만• 김지영</span>의 장녀 <span>윤영</span>
+            <span>정우진• 조미순</span>의 장녀 <span>솔</span>
           </p>
           <CircleDivider/>
         </div>
         <article class="plz">
-          하나님을 섬기는 자리에서 만나<br/>
-          사랑의 열매를 맺었습니다.<br/>
+          네 번째 여름엔 부부라는 이름으로<br/>
+          믿음과 사랑 안에서<br/>
+          새로운 시작을 준비합니다<br/>
           <br/>
-          행복이 넘치는 가정을 꾸리기 위해<br/>
-          이제 한 걸음 내딛어보려 합니다.<br/>
+          모든 날, 모든 순간을 아름답게<br/>
+          만들어 가고<br/>
+          이끌어 주고, 응원해 주는<br/>
+          서로가 되겠습니다.<br/>
           <br/>
-          오로지 믿음과 사랑만을 약속하는 귀한 날에<br/>
-          모두가 즐거운 결혼식이 되도록<br/>
-          <br/>
-          부디 오셔서 저희를 축복해주세요!
+          새로 시작하는 이 자리에 오셔서<br/>
+          축복이 가득하길 함께 해 주시기 바랍니다.<br/>
         </article>
       </div>
     </div>
@@ -71,8 +72,8 @@ export default {
        data-aos-offset="100"
        data-aos-easing="ease-out-cubic"
        data-aos-duration="1300">
-      2024년 6월 8일 토요일 오후 1시<br/>
-      연세대학교 동문회관 3층 그랜드볼룸</p>
+      2025년 7월 13일 일요일 오후 12시 40분<br/>
+      월드컵컨벤션 그랜드볼룸홀</p>
   </section>
   <SendCome :show-modal="showModal"/>
 </template>

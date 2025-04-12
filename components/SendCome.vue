@@ -68,7 +68,7 @@ export default {
     </div>
     <p class="left"
        id="modal-start" >
-      은택 & 윤영의 결혼식이<br/>
+      민서 & 솔의 결혼식이<br/>
       {{day}}일 남았습니다.
     </p>
     <button class="btn"

@@ -5,12 +5,12 @@ import {Navigation, Pagination} from "swiper/modules";
 import Cookie from 'js-cookie';
 
 useSeoMeta({
-  title:"김은택 & 정윤영 결혼식에 초대합니다",
-  ogTitle: '김은택 & 정윤영 결혼식에 초대합니다',
-  description:"김은택 & 정윤영 결혼식에 초대합니다",
-  ogDescription: '김은택 & 정윤영 결혼식에 초대합니다',
+  title:"강민서 & 정솔 결혼식에 초대합니다",
+  ogTitle: '강민서 & 정솔 결혼식에 초대합니다',
+  description:"강민서 & 정솔 결혼식에 초대합니다",
+  ogDescription: '강민서 & 정솔 결혼식에 초대합니다',
   ogUrl: 'https://invitation-letter-green.vercel.app',
-  ogSiteName: '김은택 & 정윤영 결혼식에 초대합니다',
+  ogSiteName: '강민서 & 정솔 결혼식에 초대합니다',
   ogType: 'website',
   ogImage: 'https://invitation-letter-green.vercel.app/introduction.png',
   formatDetection: 'telephone=no',
