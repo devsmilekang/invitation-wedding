@@ -23,6 +23,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          NAVER_MAP_CLIENT: ${{ secrets.NAVER_MAP_CLIENT }}
 
       - name: Add .nojekyll file
         run: touch .output/public/.nojekyll
