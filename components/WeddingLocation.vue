@@ -27,7 +27,7 @@
 
 <script>
 import WayByMethod from "./location/WayByMethod.vue";
-const [lat, lng] = [37.562741, 126.942480];
+const [lat, lng] = [37.5683, 126.8975];
 let clientKey = '';
 const items = [
   {title: '지하철',
@@ -69,8 +69,8 @@ export default {
   methods: {
     loadScript() { // 네이버 스크립트 로드
       const script =  document.createElement('script');
-      // script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${clientKey}`;
-      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=pj07x5i3c5`;
+      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${clientKey}`;
+      // script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=pj07x5i3c5`;
       script.onload = this.handleOnLoad;
       document.head.appendChild(script);
     },
@@ -90,7 +90,7 @@ export default {
       });
     }
     ,openMap() {
-      window.open('https://map.naver.com/p/search/%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90%20%EB%8F%99%EB%AC%B8%ED%9A%8C%EA%B4%80/place/1400823520?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp',
+      window.open('https://map.naver.com/p/search/%EC%9B%94%EB%93%9C%EC%BB%B5%EC%BB%A8%EB%B2%A4%EC%85%98/place/1902387925?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp',
       '_blank');
     }
   },
