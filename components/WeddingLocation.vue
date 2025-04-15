@@ -69,7 +69,7 @@ export default {
   methods: {
     loadScript() { // 네이버 스크립트 로드
       const script =  document.createElement('script');
-      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${clientKey}`;
+      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${clientKey}`;
       // script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=pj07x5i3c5`;
       script.onload = this.handleOnLoad;
       document.head.appendChild(script);
