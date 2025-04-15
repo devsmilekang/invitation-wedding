@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     "swiper/css/pagination",
   ],
 
-  plugins: [{ src: "~/plugins/swiper.js", mode: "client" }],
+  plugins: [{ src: "~/plugins/swiper.js", mode: "client"  }],
 
   runtimeConfig: {
     public: {
