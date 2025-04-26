@@ -1,16 +1,11 @@
 <script lang="ts">
 
-import SendCome from "~/components/SendCome.vue";
 import CircleDivider from "~/components/CircleDivider.vue";
 
 export default {
   name: 'WhoAmI',
   components: {
-    SendCome,
     CircleDivider
-  },
-  props: {
-    showModal: Function
   },
   mounted() {
     const onScroll = ()=>{
@@ -79,7 +74,6 @@ export default {
       2025년 7월 13일 일요일 오후 12시 40분<br/>
       월드컵컨벤션 그랜드볼룸홀</p>
   </section>
-  <SendCome :show-modal="showModal"/>
 </template>
 
 <style scoped>
@@ -92,9 +86,9 @@ export default {
 .who-am-i {
   left: 0;
   top: 0;
-  //position: absolute;
+  /* position: absolute; */
   width: 100%;
-  //opacity: 0;
+  /* opacity: 0; */
   background-color: white;
 }
 .container {
@@ -139,5 +133,4 @@ export default {
   text-align: center;
   margin-top: 92px;
 }
-
 </style>
