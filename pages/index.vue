@@ -3,7 +3,7 @@
   <div class="container"
        @click="scrollDown" >
     <div class="main-contents">
-      <WhoAmI :show-modal="showComeModal"/>
+      <WhoAmI />
       <PhotoGallery/>
       <WeddingLocation/>
       <CircleDivider/>
@@ -149,14 +149,6 @@ export default {
       script.src = `https://unpkg.com/aos@2.3.1/dist/aos.js`;
       script.onload = this.handleOnLoad;
       document.head.appendChild(script);
-    },
-    showComeModal() {
-      // this.$refs.modalRef.showModal();
-      this.$refs.modal.showModal();
-    },
-    closeModal() {
-      // this.$refs.modalRef.closeModal();
-      this.$refs.modal.closeModal();
     },
     scrollDown() {
       const element = document.querySelector<HTMLDivElement>('.main-contents');

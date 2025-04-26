@@ -49,12 +49,12 @@ export default {
         window.navigator.share({
           title: '강민서 & 정솔 결혼식에 초대합니다',
           text: '강민서 & 정솔 결혼식에 초대합니다',
-          url: 'https://invitation-letter-green.vercel.app',
+          url: 'https://devsmilekang.github.io/invitation-wedding/',
         });
       }
     },
     copyLink() {
-      window.navigator.clipboard.writeText('https://invitation-letter-green.vercel.app')
+      window.navigator.clipboard.writeText('https://devsmilekang.github.io/invitation-wedding/')
           .then(()=>{
             window.alert('주소가 복사되었습니다.');
           })
@@ -64,8 +64,6 @@ export default {
 </script>
 
 <template>
-  <BackgroundDivider text="“ 무엇보다도 뜨겁게 서로 사랑할지니<br>사랑은 허다한 죄를 덮느니라 ”"
-                     :is-small="true" />
   <footer class="footer">
     <div class="btn-container">
       <a class="btn"

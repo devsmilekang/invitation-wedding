@@ -1,9 +1,14 @@
 <script lang="ts">
 
 import SendCome from "~/components/SendCome.vue";
+import CircleDivider from "~/components/CircleDivider.vue";
+
 export default {
   name: 'WhoAmI',
-  components: [SendCome],
+  components: {
+    SendCome,
+    CircleDivider
+  },
   props: {
     showModal: Function
   },
