@@ -68,9 +68,10 @@ export default {
   },
   methods: {
     loadScript() { // 네이버 스크립트 로드
-      const script =  document.createElement('script');
-      // script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId${clientKey}`;
-      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=pj07x5i3c5`;
+      const script = document.createElement('script');
+      const cleanKey = clientKey.startsWith('=') ? clientKey.substring(1) : clientKey;
+      console.log('정리된 키:', cleanKey);
+      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${cleanKey}`;
       script.onload = this.handleOnLoad;
       document.head.appendChild(script);
     },
