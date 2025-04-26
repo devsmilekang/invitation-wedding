@@ -71,7 +71,7 @@ export default {
       const script = document.createElement('script');
       const cleanKey = clientKey.startsWith('=') ? clientKey.substring(1) : clientKey;
       console.log('정리된 키:', cleanKey);
-      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${cleanKey}`;
+      script.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${cleanKey}`;
       script.onload = this.handleOnLoad;
       document.head.appendChild(script);
     },
