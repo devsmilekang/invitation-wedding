@@ -11,7 +11,13 @@ export default {
   methods: {
     copy() {
       if (this.accountNum) {
-        window.navigator.clipboard.writeText(this.accountNum)
+        // 은행 이름과 하이픈을 제거한 숫자만 추출
+        const cleanedNumber = this.accountNum
+          .replace(/국민|우리|농협|신한|하나|기업|새마을|카카오|케이|SC|KB|NH|KEB|IBK|수협|신협|우체국|광주|전북|대구|부산|경남|산업|씨티|지역/g, '')
+          .replace(/-/g, '')
+          .trim();
+          
+        window.navigator.clipboard.writeText(cleanedNumber)
             .then(()=>{
               window.alert('계좌번호가 복사되었습니다.');
             });
